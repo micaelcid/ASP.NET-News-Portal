@@ -1,0 +1,41 @@
+#caixaLogin
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	width: 413px;
+	height: 250px;
+	margin-left: -206px;
+	margin-top: -125px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-image: url(../images/LogoGrande.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	border-radius: 5px;
+}
+
+#tblLogin { margin: 95px auto; }
+#tblLogin img { width: 100%; }
+#tblLogin p.d1 { font-size: 24px; font-weight: bold; text-align: center;}
+#tblLogin p.d2 { font-size: 18px; text-align: center; }
+
+.divisao { border-bottom:thin solid #ef3e61; }
+
+#frmLogin input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 4px;
+    line-height: 1.42857143;
+}
+
+#frmLogin input[type='submit']
+{
+    width: 85px; padding:6px; border-radius:4px; cursor:pointer; border-style:none; background-color: #137ed0; color:#fff;
+}
+
+#lblErro { color: #ef3e61;}
+
+.labelLogin { width: 200px; text-align: right; border:thin solid;}
+
+.cinza { background-color: #babaca; }

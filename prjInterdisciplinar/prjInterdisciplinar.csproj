@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90DF1534-C026-4325-A6B1-FED7B0311B44}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>prjInterdisciplinar</RootNamespace>
+    <AssemblyName>prjInterdisciplinar</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\addAutor.aspx" />
+    <Content Include="admin\addBanner.aspx" />
+    <Content Include="admin\addNoticia.aspx" />
+    <Content Include="admin\altBanner.aspx" />
+    <Content Include="admin\alterarSenha.aspx" />
+    <Content Include="admin\altNoticia.aspx" />
+    <Content Include="admin\css\estiloAlterarSenha.css" />
+    <Content Include="admin\css\estiloGeral.css" />
+    <Content Include="admin\css\estiloLogin.css" />
+    <Content Include="admin\css\font-awesome.css" />
+    <Content Include="admin\delBanner.aspx" />
+    <Content Include="admin\delNoticia.aspx" />
+    <Content Include="admin\fonts\fontawesome-webfont.svg" />
+    <Content Include="admin\images\delete.png" />
+    <Content Include="admin\images\edit.png" />
+    <Content Include="admin\images\LogoGrande.png" />
+    <Content Include="admin\inicial.aspx" />
+    <Content Include="admin\login.aspx" />
+    <Content Include="admin\logout.aspx" />
+    <Content Include="admin\noticias.aspx" />
+    <Content Include="admin\publicidade.aspx" />
+    <Content Include="admin\sair.aspx" />
+    <Content Include="categoria.aspx" />
+    <Content Include="css\admin.css" />
+    <Content Include="css\EstiloGeral.css" />
+    <Content Include="font\noticia.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="dlls\MySql.Data.dll" />
+    <Content Include="erro.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="font\Didact_Gothic\OFL.txt" />
+    <Content Include="font\Roboto\LICENSE.txt" />
+    <Content Include="img\banner\1.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\noticias\1.jpg" />
+    <Content Include="img\noticias\2.jpg" />
+    <Content Include="img\noticias\3.jpg" />
+    <Content Include="img\noticias\4.jpg" />
+    <Content Include="img\noticias\5.jpg" />
+    <Content Include="img\noticias\6.jpg" />
+    <Content Include="img\noticias\7.jpg" />
+    <Content Include="img\noticias\8.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="js\Banner.js" />
+    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="noticia.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\addAutor.aspx.cs">
+      <DependentUpon>addAutor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\addAutor.aspx.designer.cs">
+      <DependentUpon>addAutor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\addBanner.aspx.cs">
+      <DependentUpon>addBanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\addBanner.aspx.designer.cs">
+      <DependentUpon>addBanner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\addNoticia.aspx.cs">
+      <DependentUpon>addNoticia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\addNoticia.aspx.designer.cs">
+      <DependentUpon>addNoticia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\altBanner.aspx.cs">
+      <DependentUpon>altBanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\altBanner.aspx.designer.cs">
+      <DependentUpon>altBanner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\alterarSenha.aspx.cs">
+      <DependentUpon>alterarSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\alterarSenha.aspx.designer.cs">
+      <DependentUpon>alterarSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\altNoticia.aspx.cs">
+      <DependentUpon>altNoticia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\altNoticia.aspx.designer.cs">
+      <DependentUpon>altNoticia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\delBanner.aspx.cs">
+      <DependentUpon>delBanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\delBanner.aspx.designer.cs">
+      <DependentUpon>delBanner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\delNoticia.aspx.cs">
+      <DependentUpon>delNoticia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\delNoticia.aspx.designer.cs">
+      <DependentUpon>delNoticia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\inicial.aspx.cs">
+      <DependentUpon>inicial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\inicial.aspx.designer.cs">
+      <DependentUpon>inicial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ModeloAdmin.Master.cs">
+      <DependentUpon>ModeloAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ModeloAdmin.Master.designer.cs">
+      <DependentUpon>ModeloAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\noticias.aspx.cs">
+      <DependentUpon>noticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\noticias.aspx.designer.cs">
+      <DependentUpon>noticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\publicidade.aspx.cs">
+      <DependentUpon>publicidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\publicidade.aspx.designer.cs">
+      <DependentUpon>publicidade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\sair.aspx.cs">
+      <DependentUpon>sair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\sair.aspx.designer.cs">
+      <DependentUpon>sair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="categoria.aspx.cs">
+      <DependentUpon>categoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="categoria.aspx.designer.cs">
+      <DependentUpon>categoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="erro.aspx.cs">
+      <DependentUpon>erro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="erro.aspx.designer.cs">
+      <DependentUpon>erro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo.Master.cs">
+      <DependentUpon>Modelo.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modelo.Master.designer.cs">
+      <DependentUpon>Modelo.Master</DependentUpon>
+    </Compile>
+    <Compile Include="noticia.aspx.cs">
+      <DependentUpon>noticia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="noticia.aspx.designer.cs">
+      <DependentUpon>noticia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Modelo.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="admin\ModeloAdmin.Master" />
+    <None Include="admin\fonts\fontawesome-webfont.eot" />
+    <None Include="admin\fonts\fontawesome-webfont.ttf" />
+    <None Include="admin\fonts\fontawesome-webfont.woff" />
+    <None Include="admin\fonts\fontawesome-webfont.woff2" />
+    <None Include="admin\fonts\FontAwesome.otf" />
+    <None Include="fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="font\Didact_Gothic\DidactGothic-Regular.ttf" />
+    <None Include="font\Roboto\Roboto-Black.ttf" />
+    <None Include="font\Roboto\Roboto-BlackItalic.ttf" />
+    <None Include="font\Roboto\Roboto-Bold.ttf" />
+    <None Include="font\Roboto\Roboto-BoldItalic.ttf" />
+    <None Include="font\Roboto\Roboto-Italic.ttf" />
+    <None Include="font\Roboto\Roboto-Light.ttf" />
+    <None Include="font\Roboto\Roboto-LightItalic.ttf" />
+    <None Include="font\Roboto\Roboto-Medium.ttf" />
+    <None Include="font\Roboto\Roboto-MediumItalic.ttf" />
+    <None Include="font\Roboto\Roboto-Regular.ttf" />
+    <None Include="font\Roboto\Roboto-Thin.ttf" />
+    <None Include="font\Roboto\Roboto-ThinItalic.ttf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59233</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

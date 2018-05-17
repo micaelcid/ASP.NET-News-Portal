@@ -1,0 +1,86 @@
+* { font-size:14px; font-family: 'Roboto', sans-serif; }
+
+body { margin:0; background-color: #fff; }
+
+.borda { border: thin solid #f00; }
+
+
+#itemConf { cursor:pointer; }
+
+
+.divisoria {  background-color:#137ed0; height: 2px;}
+.centro { text-align: center; }
+.fl { float:left; }
+.limpa { clear: both; }
+.cor2 { color: #329aeb; }
+
+.negrito { font-weight: bold; }
+.t12 { font-size: 12px; }
+.duasCols { width: 50%; }
+.linha { width: 100%; }
+.espSup { margin-top:20px;}
+
+#logo { position: absolute; left:38px;}
+
+#barraIdentificacao { position: fixed; top: 0; left:0; width: 100%; background-color: #054F77; color: #fff; z-index: 2; min-height: 57px; }
+#conteudoId { margin-top:10px; padding: 10px; text-align: right;}
+
+#barraMenu { position: fixed; top: 0; left: 0; width: 160px; z-index: 1; background-color: #054F77; height: 100%; }
+#conteudoBarraMenu { padding: 10px; padding-top: 57px; color: #fff;}
+
+#conteudoBarraMenu ul { margin:0; padding: 0; width: 100%; list-style-type: none; }
+#conteudoBarraMenu ul li a { padding: 10.5px 11px; display:block; border-radius: 5px; }
+.submenu {background-color:#363635; border-radius:4px; padding:20px; }
+.subitem { font-size:10px; margin-left:20px; }
+
+#areaCentral { min-height: 300px;  margin-left: 160px; margin-top: 55px;  }
+#conteudoCentral { padding: 14px; }
+
+#lstSubMenu li a.lnkSubItem { text-decoration: none; color: #fff; }
+#lstSubMenu li a.lnkSubItem:hover { text-decoration:none; color: #fff;  }
+#lstSubMenu li a.lnkSubItem:visited { text-decoration: none; color: #fff; }
+#lstSubMenu li a.lnkSubItem>active { text-decoration: none; color: #fff; }
+
+a.lnkBranco { text-decoration: none; color: #fff; }
+a.lnkBranco:hover { text-decoration: none; color: #fff; background-color: #054F77;}
+a.lnkBranco:visited { text-decoration: none; color: #fff; }
+a.lnkBranco:active { text-decoration: none; color: #fff; }
+
+a.lnkBrancoSimples { text-decoration: none; color: #fff; }
+a.lnkBrancoSimples:hover { text-decoration: underline; color: #fff; }
+a.lnkBrancoSimples:visited { text-decoration: none; color: #fff; }
+a.lnkBrancoSimples:active { text-decoration: none; color: #fff; }
+
+.titulo { color: #054F77; font-weight: bold; font-size: 18px; text-transform: uppercase;}
+
+a.lnkGeral { text-decoration: none; color: #2c286c; }
+a.lnkGeral:hover { text-decoration: none; color: #2c286c;}
+a.lnkGeral:visited { text-decoration: none; color: #2c286c;}
+a.lnkGeral:active { text-decoration: none; color: #2c286c; }
+
+#barraSubMenu {  background-color: #2b2b2b; min-height: 56px; }
+#conteudoBarraSubMenu { padding: 10px; color: #fff; float:left; }
+#conteudoBarraSubMenu ul { margin:0; padding: 0; width: 100%; list-style-type: none; }
+#conteudoBarraSubMenu ul li { float:left; padding-right:10px; }
+#conteudoBarraSubMenu ul li a { text-decoration: none; padding: 10.5px 11px; display:block; border-radius: 5px;}
+
+.lnkSubItem { font-size:10px; margin-left:20px; }
+
+.barraProcura { width: 500px; text-align:right; float:right; margin-right:30px; margin-top:15px; } 
+.barraProcura input[type='text'] { padding:5px; border-radius:4px; margin-right:10px; }
+.barraProcura input[type='submit'] { padding:6px; border-radius:4px; cursor:pointer; border-style:none; background-color: #054F77; color:#fff; }
+
+.direita { text-align:right; }
+
+.tituloSecao { font-size:18px; color:#137ed0; text-align:left; }
+
+.frmNovoLink { margin-top: 30px; border: thin solid #137ed0; padding:10px; }
+.tblNovoLink { width: 100%; }
+.tblNovoLink input[type='text'] { padding:5px; border-radius:4px; margin-right:10px;  width:500px; }
+.tblNovoLink input[type='submit'] { padding:6px; border-radius:4px; cursor:pointer; border-style:none; background-color:#054F77; color:#fff; }
+
+.frmNovaFoto { margin-top: 30px; border: thin solid #137ed0; padding:10px; }
+.tblNovaFoto { width: 100%; }
+.tblNovaFoto input[type='text'] { padding:5px; border-radius:4px; margin-right:10px;  width:500px; }
+.tblNovaFoto input[type='file'] { padding:5px; border-radius:4px; margin-right:10px;  width:500px; }
+.tblNovaFoto input[type='submit'] { padding:6px; border-radius:4px; cursor:pointer; border-style:none; background-color: #054F77; color:#fff; }

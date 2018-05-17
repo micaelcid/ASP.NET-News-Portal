@@ -1,0 +1,10 @@
+﻿*{font-family: 'Roboto', Sans-Serif}
+body{margin:0;background-color:#e9ebee}
+.linhaAzul{width:100%;height:10px;background-color:#054F77;}
+main{width:40%; margin:auto; text-align:center;}
+.pnlLogo{margin:auto;width:100%;height:150px;background-color:transparent; color:white; text-align:center;}
+.logo{height:100px; margin:auto;padding-top:25px;}
+.ContentBox{background-color:White;border-radius:10px; box-shadow:0px 1px 1px #c0c0c0;padding:30px 0;}
+.TextBox{border-radius:5px; margin:10px 0; padding:10px;width:50%;}
+.Button{border-radius:5px; margin:10px 0; padding:10px;width:25%; background-color:transparent; border:2px solid #054F77; color:#054F77; font-weight:bold; }
+.Button:hover{cursor:pointer;background-color:#054f77; color:White;}

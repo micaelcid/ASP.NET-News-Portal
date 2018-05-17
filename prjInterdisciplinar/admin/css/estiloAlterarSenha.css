@@ -1,0 +1,5 @@
+﻿.caixa { width: 90%; padding:7px; border-radius:4px; border:thin solid #babaca; }
+
+input[type='submit'] { width:100px; ;padding:6px; border-radius:4px; cursor:pointer; border-style:none; background-color: #054F77; color:#fff; }
+
+.frmAlteraSenha { width: 400px; text-align: left; }

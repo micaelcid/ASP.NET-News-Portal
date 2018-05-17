@@ -1,0 +1,24 @@
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\bin\prjInterdisciplinar.dll
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\bin\prjInterdisciplinar.pdb
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\bin\MySql.Data.dll
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.csprojResolveAssemblyReference.cache
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.dll
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.pdb
+F:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\bin\prjInterdisciplinar.dll
+F:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\bin\prjInterdisciplinar.pdb
+F:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\bin\MySql.Data.dll
+F:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.csprojResolveAssemblyReference.cache
+F:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.dll
+F:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_27 - Senso FULL\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.pdb
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\bin\prjInterdisciplinar.dll
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\bin\prjInterdisciplinar.pdb
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\bin\MySql.Data.dll
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.csprojResolveAssemblyReference.cache
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.dll
+H:\ETEC\Projeto Interdisciplinar I\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.pdb
+D:\Portfólio\Projetos\2017_10_11 - Projeto Interdisciplinar\Projeto Interdisciplinar\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\bin\prjInterdisciplinar.dll
+D:\Portfólio\Projetos\2017_10_11 - Projeto Interdisciplinar\Projeto Interdisciplinar\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\bin\prjInterdisciplinar.pdb
+D:\Portfólio\Projetos\2017_10_11 - Projeto Interdisciplinar\Projeto Interdisciplinar\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\bin\MySql.Data.dll
+D:\Portfólio\Projetos\2017_10_11 - Projeto Interdisciplinar\Projeto Interdisciplinar\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.csprojResolveAssemblyReference.cache
+D:\Portfólio\Projetos\2017_10_11 - Projeto Interdisciplinar\Projeto Interdisciplinar\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.dll
+D:\Portfólio\Projetos\2017_10_11 - Projeto Interdisciplinar\Projeto Interdisciplinar\ASP.NET\2017_09_30 - Senso - Finalizado\prjInterdisciplinar\obj\Debug\prjInterdisciplinar.pdb

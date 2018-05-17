@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ModeloAdmin.master.cs" Inherits="prjPortal.admin.ModeloAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Senso - Admin</title>
+    <link rel="stylesheet" type="text/css" href="css/estiloGeral.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="barraIdentificacao">
+            <div id="logo"></div>
+            <div id="conteudoId">
+                Olá, <b><asp:Label ID="lblLogado" runat="server" Text=""></asp:Label></b>
+                <span class="cor2 negrito">|</span>
+                <a href="alterarSenha.aspx" class="lnkBrancoSimples">Alterar Senha</a>
+                <span class="cor2 negrito">|</span>
+                <a href="logout.aspx" class="lnkBrancoSimples">Sair</a>
+            </div>
+        </div>
+
+        <div id="barraMenu">
+            <div id="conteudoBarraMenu">
+                <ul>
+                    <li><asp:HyperLink ID="lnkHome" CssClass="lnkBranco" NavigateUrl="~/admin/inicial.aspx" runat="server" Text="<i class='fa fa-home fa-fw cor1'></i>&nbsp;Home">
+                    </asp:HyperLink></li>
+
+                    <li><asp:HyperLink ID="lnkNoticias" CssClass="lnkBranco" NavigateUrl="~/admin/noticias.aspx" runat="server" Text="<i class='fa fa-newspaper-o  fa-fw cor1'></i>&nbsp;Notícias">
+                    </asp:HyperLink></li>
+                        
+                    <li><asp:HyperLink ID="lnkBanners" CssClass="lnkBranco" NavigateUrl="~/admin/publicidade.aspx" runat="server" Text="<i class='fa fa-tasks fa-fw cor1'></i>&nbsp;Publicidade">
+                    </asp:HyperLink></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="areaCentral">
+            <div id="conteudoCentral" class="">   
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
